@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: darkcyan;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table form</title>
+</head>
+<body>
+    <header>
+        <h1>Sign Up</h1>
+    </header>
+    <main>
+        <fieldset style="background-color: darkgoldenrod;">
+            <legend>
+                <h3>Fill in please!</h3>
+            </legend>
+            <form action="." method="GET">
+            <div id="name">
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" style="background-color: darkgray;">
+            </div> <br>
+            <div id="name">
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" id="surname" style="background-color: darkgray;">
+            </div> <br>
+            <div id="email">
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="user@gmail.com" style="background-color: darkgray;">
+            </div> <br>
+            <div id="password_1">
+                <label for="password">Create Password:</label>
+                <input type="password" name="password_1" id="password_1" placeholder="********" maxlength="8" style="background-color: darkgray;"> <br>
+                <span> * Max of 8 characters</span>
+            </div> <br>
+            <div id="password_2">
+                <label for="password">Confirm Password:</label>
+                <input type="password" name="password_2" id="password_2" placeholder="********" maxlength="8" style="background-color: darkgray;"> <br>
+                <span> * Max of 8 characters</span>
+            </div> <br>
+            <div id="gender">
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" style="background-color: darkgray;">
+                    <option value=""></option>
+                    <option value="">Female</option>
+                    <option value="">Male</option>
+                </select>
+            </div> <br>
+            <div id="Location">
+                <label for="Location">Location:</label>
+                <select name="continent" id="continent" style="background-color: darkgray;">
+                    <option value=""></option>
+                    <option value="">Africa</option>
+                    <option value="">Asia</option>
+                    <option value="">Australia</option>
+                    <option value="">Europe</option>
+                    <option value="">North America</option>
+                    <option value="">South America</option>
+                </select>
+            </div> <br>
+            <div>
+                <input type="submit" value="Submit" style="background-color:green;">
+            </div>
+            </form>
+        </fieldset>
+        <br>
+        <br>
+        <div>
+            <h1>Data Collected</h1>
+            <table>
+            <table border="1">
+                <tr style="background-color: darkgoldenrod;">
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Surname</th>
+                    <th>Email Address</th>
+                    <th>Password</th>
+                    <th>Gender</th>
+                    <th>Location</th>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td><input type="number" name="position" id="position" maxlength="3"></td>
+                    <td><input type="text" name="first_name" id="first_name" maxlength="20"></td>
+                    <td><input type="text" name="surname" id="surname" maxlength="20"></td>
+                    <td><input type="email" name="email" id="email" maxlength="20"></td>
+                    <td><input type="number" name="password" id="password" maxlength="8"></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="continent" id="continent">
+                            <option value=""></option>
+                            <option value="">Africa</option>
+                            <option value="">Asia</option>
+                            <option value="">Australia</option>
+                            <option value="">Europe</option>
+                            <option value="">North America</option>
+                            <option value="">South America</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
