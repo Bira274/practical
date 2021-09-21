@@ -1,0 +1,31 @@
+.content {
+text-align: left;
+padding-top: 100px;
+line-height: 50px;
+font-weight: bolder;
+color: darkgoldenrod;
+}
+.box {
+    margin: 0px 200px 0px 0px;
+    background-image: url(../pictures/Background.jpg);
+    float: left;
+    padding-bottom: 484px;
+    padding-right: 300px;
+    background-size: cover;
+}
+.container {
+margin: 100px 300px 5px;
+height: 500px;
+background-color: coral;
+box-shadow: 10px 10px  8px darkgoldenrod;
+}
+#name {
+    font-size: 50px;
+}
+#email {
+    font-size: 20px;
+    font-style: italic;
+}
+/* .container:hover {
+    box-shadow: 10px 10px  8px darkgoldenrod;
+} */
