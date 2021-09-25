@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(150, 148, 148, 0.9);
+}
+.card {
+    margin: 35px 360px 50px;
+    background-color: white;
+    padding: 20px 20px 230px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top {
+    display: flex;
+    /* background-color: teal; */
+}
+button img {
+    width: 20px;
+    height: 20px;
+    
+}
+/* .info {
+    background-color: tomato;
+    padding: 5px 30px 80px;
+} */
+/* h1 {
+    font-size: 25px;
+} */
