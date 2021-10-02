@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    background-color: burlywood;
+    min-height: 500px;
+    /* flex-direction: column; */
+    /* flex-flow: column wrap; */
+    flex-wrap: wrap;
+     /* shorthand for the 2 rules above */
+    
+    /* vertical alignments */
+    justify-content: center;
+
+    /* align-items: flex-end; */
+
+    align-content: space-between;
+
+    gap: 10px;
+}
+.container div {
+    border: 1px solid black;
+    background-color: coral;
+    margin: 0px;
+    padding: 30px;
+    width: 20%;
+    height: 20%;
+}
+.three {
+    order: 5;
+    flex-basis: 40%;
+}
+.nine {
+    order: -5;
+    /* align-self: flex-end; */
+}
+.five {
+    /* order: 2; */
+    flex-grow: 2;
+    /* flex-shrink: 3; */
+}
