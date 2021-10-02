@@ -106,7 +106,7 @@ input[type=text]:focus {
  .birth-text b {
      color: black;
  }
- #month {
+ .month {
     width: 250px;
     height: 52px;
     border-radius: 5px;
@@ -114,7 +114,7 @@ input[type=text]:focus {
     border-width: thin;
     border-color: lightgray;
  }
- #day {
+ .day {
     width: 110px;
     height: 52px;
     border-radius: 5px;
@@ -122,13 +122,16 @@ input[type=text]:focus {
     border-width: thin;
     border-color: lightgray;
  }
-#year {
+.year {
     width: 160px;
     height: 52px;
     border-radius: 5px;
     border-style: solid;
     border-width: thin;
     border-color: lightgray;
+}
+#month {
+    color: brown;
 }
 input[type=button] {
     width: 100%;
